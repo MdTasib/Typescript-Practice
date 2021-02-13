@@ -132,3 +132,41 @@ console.log(rafi);
 // console.log(tasib);
 // tasib.play();
 // console.log(tasib);
+// Generics 
+// interface hello<T> {
+//     name: string;
+//     age: number;
+//     data: T;
+// }
+// const tasib: hello<object> = {
+//     name: 'tasib',
+//     age: 19,
+//     data: {
+//     },
+// }
+// const rafi: hello<string> = {
+//     name: 'rafi',
+//     age: 19,
+//     data: 'hello world',
+// }
+// Enum Types
+// enum ResType {
+//     T,
+//     a,
+//     s,
+//     i,
+//     b,
+// }
+// interface hello<T> {
+//     name: string;
+//     age: number;
+//     type: ResType;
+//     data: T;
+// }
+// const tasib: hello<string> = {
+//     name: 'tasib',
+//     age: 19,
+//     type: ResType.a, // index number
+//     data: 'Hello World',
+// }
+// console.log(tasib);

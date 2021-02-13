@@ -154,3 +154,25 @@ console.log(rafi);
 //     age: 19,
 //     data: 'hello world',
 // }
+
+// Enum Types
+// enum ResType {
+//     T,
+//     a,
+//     s,
+//     i,
+//     b,
+// }
+// interface hello<T> {
+//     name: string;
+//     age: number;
+//     type: ResType;
+//     data: T;
+// }
+// const tasib: hello<string> = {
+//     name: 'tasib',
+//     age: 19,
+//     type: ResType.a, // index number
+//     data: 'Hello World',
+// }
+// console.log(tasib);
