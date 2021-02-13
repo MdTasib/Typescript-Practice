@@ -135,3 +135,22 @@ console.log(rafi);
 // console.log(tasib);
 // tasib.play();
 // console.log(tasib);
+
+// Generics 
+// interface hello<T> {
+//     name: string;
+//     age: number;
+//     data: T;
+// }
+// const tasib: hello<object> = {
+//     name: 'tasib',
+//     age: 19,
+//     data: {
+
+//     },
+// }
+// const rafi: hello<string> = {
+//     name: 'rafi',
+//     age: 19,
+//     data: 'hello world',
+// }
