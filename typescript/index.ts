@@ -1,3 +1,4 @@
+/*
 // function
 function fullName(firstName: string, lastName: string): string {
     return firstName + " " + lastName;
@@ -57,3 +58,4 @@ const rafi: Person = {
     programmer: true,
 }
 console.log(rafi);
+*/
