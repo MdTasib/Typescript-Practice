@@ -60,3 +60,75 @@ const rafi: Person = {
 }
 console.log(rafi);
 */
+// Type Aliases
+// (1)
+// const userDetails = (
+//     id: string | number,
+//     user: {
+//         name: string,
+//         age: number
+//     }
+// ) => {
+//     console.log(`User id is ${id}, name id ${user.name} and age is ${user.age}`);
+// };
+// const sayHello = (user: { name: string, age: number }) => {
+//     console.log(`Hello ${user.age > 50 ? 'Sir.' : 'Mr.'} ${user.name}`);
+// };
+// (2)
+// type userId = string | number;
+// type userInfo = { name: string, age: number };
+// const userDetails = (
+//     id: userId,
+//     user: userInfo,
+// ) => {
+//     console.log(`User id is ${id}, name id ${user.name} and age is ${user.age}`);
+// };
+// const sayHello = (user: userInfo) => {
+//     console.log(`Hello ${user.age > 50 ? 'Sir.' : 'Mr.'} ${user.name}`);
+// };
+// Function Signatures
+// let myFunc: (x: number, y: number, z: string) => number;
+// myFunc = (a: number, b: number, c: string) => {
+//     if (c === 'sum') {
+//         return a + b;
+//     } else {
+//         return a - b;
+//     }
+// }
+// console.log(myFunc(10, 5, 'sum'));
+// class
+// (1)
+// class Person {
+//     name: string;
+//     age: number;
+//     country: string;
+//     constructor(n: string, a: number, c: string) {
+//         this.name = n;
+//         this.age = a;
+//         this.country = c;
+//     }
+//     play() {
+//         console.log(`${this.name} from ${this.country} is playing..`);
+//     }
+// }
+// const tasib = new Person('tasib', 19, 'bangladesh');
+// console.log(tasib);
+// tasib.play();
+// tasib.name = 'Rafi';
+// console.log(tasib);
+// class Access Modifiers 
+// (2)
+// class Person {
+//     constructor(
+//         private name: string,
+//         public age: number,
+//         readonly country: string,
+//     ) { }
+//     play() {
+//         console.log(`${this.name} from ${this.country} is playing..`);
+//     }
+// }
+// const tasib = new Person('tasib', 19, 'bangladesh');
+// console.log(tasib);
+// tasib.play();
+// console.log(tasib);
